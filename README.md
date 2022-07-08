@@ -51,8 +51,9 @@ WHEN I am idle on the page for more than a set time
 THEN I am automatically signed out of the site 
 ```
 
-## Mock-Up
-
+## Screenshot
+![TechApp](Tech-Blog.png)
+[Heroku Link](https://mysterious-ocean-65049.herokuapp.com/)
 
 
 ## Getting Started
@@ -111,6 +112,4 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the functional, deployed application.
 
-* The URL of the GitHub repository, with a unique name and a readme describing the project. https://github.com/Gcoder9/techblog
-
----
+* The URL of the GitHub repository, with a unique name and a readme describing the project. [Github](https://github.com/Gcoder9/techblog)
