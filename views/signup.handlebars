@@ -1,20 +1,23 @@
-<form class="form signup-form">
+<h2 class="display-7">Login</h2>
+
+<form class="form login-form">
   <div class="form-group">
-    <label class="display-7" for="name">Name:</label>
-    <input class="form-input" type="name" id="name" />
+    <label class="display-7" for="display_name">Name</label>
+    <input class="form-input" type="text" id="name" />
   </div>
   <div class="form-group">
-    <label class="display-7" for="email-login">Email:</label>
+    <label class="display-7" for="password-login">Email</label>
     <input class="form-input" type="text" id="signup-email" />
   </div>
   <div class="form-group">
-    <label class="display-7" for="password-login">Password:</label>
+    <label class="display-7" for="password-login">Password</label>
     <input class="form-input" type="password" id="signup-pw" />
   </div>
   <div class="form-group">
-    <button class="btn alert-dark" type="submit" id="signupbtn">Sign Up</button>
-  </div>
-
+    <button id="signupbtn" class="btn alert-dark" type="submit">login</button>
+    
+    <div id="signup-error"class="form-group text-center">
+      </div> 
 </form>
 
 <script src="/js/signup.js"></script>
