@@ -3,6 +3,8 @@ const express = require("express");
 const session = require("express-session");
 //offload routes to controllers directory reference
 const routes = require("./controllers");
+const helpers = require('./utils/helpers');
+
 
 const sequelize = require("./config/connection");
 //init session state
